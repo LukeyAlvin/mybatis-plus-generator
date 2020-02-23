@@ -72,4 +72,8 @@ public class TeacherController {
     public TeacherDTO getStream(@RequestParam Long id){
         return teacherService.searchStream(id);
     }
+
+    public String test(){
+        return "Welcome to my blog!";
+    }
 }
