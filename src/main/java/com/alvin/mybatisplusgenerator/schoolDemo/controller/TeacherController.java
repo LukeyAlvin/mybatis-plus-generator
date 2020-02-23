@@ -29,6 +29,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/test")
 public class TeacherController {
+  //这里的注解提供给Bean增强工具类使用的，Controller来调动各个Service，避免了Sercvice相互串门
     @Autowired
     ITeacherService teacherService;
     @Autowired

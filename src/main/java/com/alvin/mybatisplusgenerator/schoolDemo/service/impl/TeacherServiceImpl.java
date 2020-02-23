@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 @Service
 public class TeacherServiceImpl extends ServiceImpl<TeacherMapper, Teacher> implements ITeacherService {
 
-    
+    //这里注入了其他的Service，暴露了普通迭代方式的缺点，Service相互串门，没有达到各司其职的效果
     @Autowired
     IStudentService studentService;
 
