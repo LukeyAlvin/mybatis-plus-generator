@@ -36,7 +36,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
             <!-- 加入对应mysql版本的mysql-connector-java版本-->
-            <version>5.1.6</version>
+            <version>8.0.28</version>
         </dependency>
 
         <dependency>
